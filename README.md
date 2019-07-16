@@ -15,7 +15,7 @@
 5. Create a pipeline<br> 
 •	Pipeline name – DeploymentAppJava<br/>
 •	Select new service role – gives you a role name<br/>
-•	Select provide – GitHub<br/>
+•	Add Source - Select provide – GitHub<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;o   Connect to GitHub – Authorize AWS codesuite<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Should give you a message that you have connected to github<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;o	Select the respository<br>
