@@ -51,5 +51,10 @@ This specifies the filename to be exactly what is needed for the pipeline withou
 •	Delete the build folder from. gitignore<br>
 •	Rename the .jar file to application.jar<br>
 •	Push code to master<br>
+•	If you are running into issues with the naming of the bootJar you'll notice in the logs it says something about application.jar corrupt or missing. Add this code to your gradle.build before running `./gradlew bootJar`\
+`bootJar {
+	archiveFileName = 'application.jar'
+}`\ Where application.jar is the name of the file you want to be created<br>
+
 
 
