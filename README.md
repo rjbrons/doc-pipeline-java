@@ -15,6 +15,7 @@
 `bootJar {
 	archiveFileName = 'application.jar'
 }`
+This specifies the filename to be exactly what is needed for the pipeline without testing / building
 
 ![image](https://github.com/rjbrons/doc-pipeline-java/blob/master/asserts/Screen%20Shot%202019-07-16%20at%2011.28.53%20AM.png)
 
