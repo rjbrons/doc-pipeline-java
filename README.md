@@ -1,5 +1,8 @@
 # doc-pipeline-java
 
+## Deployed Link
+- http://deploymentappjava-env.fj3cw39eer.us-west-2.elasticbeanstalk.com/
+
 ## Steps
 1. Run the app locally and see if there is any error
 2.Setup the permission to run ./gradle bootjar by running following command - 'chmod +x gradlew'. This will grant the execute permission.
