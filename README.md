@@ -19,7 +19,7 @@
 •	Check the deployed site to see if elastic beanstalk is deployed correctly<br/>
 
 6. Create a pipeline<br> 
-![image](/assets/Screen Shot 2019-07-16 at 11.30.36 AM.png)
+![image](https://github.com/rjbrons/doc-pipeline-java/blob/master/asserts/Screen%20Shot%202019-07-16%20at%2011.30.36%20AM.png)
 •	Pipeline name – DeploymentAppJava<br/>
 •	Select new service role – gives you a role name<br/>
 •	Add Source - Select provide – GitHub<br/>
@@ -36,7 +36,7 @@
 •	Review your inputs<br>
 •	Click create pipeline<br>
 •	Make sure you push your code to GitHub with build file in it
-![image](/assets/Screen Shot 2019-07-16 at 12.01.05 PM.png))
+![image](https://github.com/rjbrons/doc-pipeline-java/blob/master/asserts/Screen%20Shot%202019-07-16%20at%2012.01.05%20PM.png)
 Potential roadblocks or trouble spots<br> 
 •	Deployment issue - Deployment completed, but with errors: During an aborted deployment, some instances may have deployed the new application version. To ensure all instances are running the same version, re-deploy the appropriate application version. Failed to deploy application.<br>
 •	Delete the build folder from. gitignore<br>
