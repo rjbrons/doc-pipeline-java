@@ -3,16 +3,18 @@
 ## Steps
 1. Run the app locally and see if there is any error
 2.Setup the permission to run ./gradle bootjar by running following command - 'chmod +x gradlew'. This will grant the execute permission.
+•	rename the .jar file within build/libs to application.jar
 3. On application properties add -  server.port=5000
+4. Update the .gitignore to allow the build folder specifically the application.jar file to not be ignored.
 
-4. Create new application in Elastic Beanstalk <br/>
+5. Create new application in Elastic Beanstalk <br/>
 •	Application name – DeploymentAppJava-env<br/>
 •	Platform – Java<br/>
 •	Upload your code – upload the jar file<br/>
 •	Click create environment<br/>
 •	Check the deployed site to see if elastic beanstalk is deployed correctly<br/>
 
-5. Create a pipeline<br> 
+6. Create a pipeline<br> 
 •	Pipeline name – DeploymentAppJava<br/>
 •	Select new service role – gives you a role name<br/>
 •	Add Source - Select provide – GitHub<br/>
@@ -33,6 +35,7 @@
 Potential roadblocks or trouble spots<br> 
 •	Deployment issue - Deployment completed, but with errors: During an aborted deployment, some instances may have deployed the new application version. To ensure all instances are running the same version, re-deploy the appropriate application version. Failed to deploy application.<br>
 •	Delete the build folder from. gitignore<br>
+•	Rename the .jar file to application.jar<br>
 •	Push code to master<br>
 
 
