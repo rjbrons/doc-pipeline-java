@@ -6,7 +6,7 @@
 ## Steps
 1. Run the app locally and see if there is any error
 2. Setup the permission to run ./gradle bootjar by running following command - 'chmod +x gradlew' or 'chmod 755 gradlew'. This will grant the execute permission.\
-•	rename the .jar file within build/libs to application.jar  
+•	rename the .jar file within build/libs/ to application.jar  
 ![image](https://github.com/rjbrons/doc-pipeline-java/blob/master/asserts/Screen%20Shot%202019-07-16%20at%2011.28.53%20AM.png)
 3. On application properties add -  server.port=5000
 4. Update the .gitignore to allow the build folder specifically the application.jar file to not be ignored.
