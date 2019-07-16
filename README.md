@@ -10,7 +10,12 @@
 4. Setup the permission to run ./gradlew bootjar by running one of the following commands\
     `chmod +x gradlew` or `chmod 755 gradlew`\
  This will grant the execute permission.\
-•	rename the .jar file within build/libs/ to application.jar  
+•	rename the .jar file within build/libs/ to application.jar or\
+•	Add this code to your gradle.build before running `./gradlew bootJar`\
+`bootJar {
+	archiveFileName = 'application.jar'
+}`
+
 ![image](https://github.com/rjbrons/doc-pipeline-java/blob/master/asserts/Screen%20Shot%202019-07-16%20at%2011.28.53%20AM.png)
 
 5. Create new application in Elastic Beanstalk <br/>
